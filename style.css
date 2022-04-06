@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+li, a{
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logoFlex{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    color: #2a3342;
+    font-size: 21px;
+}
+
+.imagenLogo{
+    display: flex;
+    margin: 2rem;
+    gap: 0.5rem;
+    width: auto;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    padding: 40px 10px;
+    max-height: 1rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    
+    
+}
+
+nav{
+    width: 80%;
+}
+
+header button{
+    width: auto;
+}
+
+.pulponav{
+    height: 1.5rem;
+   
+}
+
+nav ul{
+ margin: 1vw;
+ display: flex;
+ list-style: none;
+ gap: 5vw;
+ justify-content: center;
+ 
+}
+
+nav ul a {
+    color: #90a2b8;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+
+.buttonIngresar{
+    border-style: none;
+    background-color: white ;
+    color: #90a2b8;
+    display: inline-block;
+    width: 5em
+    
+        
+}
+
+.buttonIngresar a {
+    border-style: none;
+    background-color: white ;
+    color: #8c8d8fe7;
+    
+        
+}
+
+.buttonRegister{
+    border: none;
+    background-color: white;
+    width:5em;
+    
+    
+}
+
+
+.buttonRegister a{
+    background-color: #2ad167;
+    color: white;
+    padding: 9px;
+    border-radius: 7px;
+    font-weight: 550;
+    
+    
+}
+
+.botonesNav{
+    width: auto;
+}
+
+
+.principal{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 6rem 3rem 6rem;
+    gap: 1rem;
+    
+}
+
+h1{
+    color: #313842;
+    font-size: 45px;
+    text-align: left;
+    
+}
+
+.buttonNuevo{
+    background-color: #2ad167;
+    border-style: none;
+    border-radius: 22px;
+    font-size: 16px;
+    padding: 3px;
+    color: white;
+}
+
+.principal p {
+    color: #2a3342;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonSolicitar{
+    border-style: none;
+    background-color:#2ad167 ;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.buttonRegis{
+    background-color: white;
+    border-style:ridge ;
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.123);
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.circle{
+    position: absolute;
+    top:-50px;
+    left:-50px;
+}
+
+.headDer{
+    position: relative;
+}
+
+.dots{
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}

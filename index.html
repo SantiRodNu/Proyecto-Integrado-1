@@ -33,7 +33,7 @@
 
     </nav>
         <div class="botonesNav">
-            <button class="buttonIngresar"><a href="#">Ingresar</a></button>
+            <button class="buttonIngresar" id="btnIng"><a href="#">Ingresar</a></button>
             <button class="buttonRegister"> <a href="#">Registrarse</a> </button>
 
         </div>
@@ -257,5 +257,30 @@
 
             <p>© 2022 Flex. Un producto ficticio de Senpai.</p>
         </footer>
+
+
+        <div class="formPopup" id="myForm">
+
+            <a href="#" class="close" id="cross"></a>
+
+            <form action="/action_page.php" class="form-container">
+
+
+              <h1 class="h1Form">Ingresa a tu cuenta</h1>
+                <p>y empieza a conseguir resultado</p>
+
+              <label for="email"><b>Correo</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Contraseña</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit" class="btn">Ingresar</button>
+              
+            </form>
+          </div>
+
+<script src="./script.js"></script>
+
 </body>
 </html>

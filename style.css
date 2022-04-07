@@ -159,6 +159,7 @@ h1{
     padding: 15px;
     border-radius: 6px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .circle{
@@ -356,3 +357,37 @@ footer p{
 .footerLogo{
     display: inline-block;
 }
+
+.formPopup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2a3342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    
+
+}
+
+
+.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+form{
+    width: 29vw ;
+    background-color: #6f7c8b;
+    max-width: 100%;
+    text-align: center;
+}
+
+.h1Form{
+    text-align: center;
+}
+

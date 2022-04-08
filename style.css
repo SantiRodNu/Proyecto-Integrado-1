@@ -521,6 +521,7 @@ form img{
         justify-content: center;
         text-align: center;
         margin-left: 4vw;
+        
     }
     h1{
         text-align: center;
@@ -584,10 +585,19 @@ form img{
     }
 
     .buttonIngresar{
-        margin-top: 4vh;
-        background-color: #2ad167;
+        margin-top: 6vh;
+        margin-right: 4vw;
+        
         
     }
+
+    .buttonIngresar a{
+        background-color: #2ad167;
+        border-radius: 6px;
+        padding: 1em;
+        color: white;
+    }
+
     .buttonRegister{
         display: none;
     }

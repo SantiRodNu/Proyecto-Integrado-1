@@ -264,21 +264,37 @@
            
             <form action="/action_page.php" class="form-container">
 
-
+                <img src="./logo-blanco.png" alt="">
               <h1 class="h1Form">Ingresa a tu cuenta</h1>
                 <p>y empieza a conseguir resultado</p>
 
               <label for="email"><b>Correo</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
+              <input type="text"  name="email" required>
           
               <label for="psw"><b>Contraseña</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-          
+              <input type="password" name="psw" required>
+
+            <div class="divRemember">
+                <input class="formCheck" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <b class="rememberMe">Recordarme</b> 
+             <div class="divForgot">
+                <b class="forgot">Olvidé mi contraseña</b>
+             </div>   
+              
+
+            </div>
+              
+
               <button type="submit" class="btn">Ingresar</button>
+
+              <div class="aun"><b>Aún no tienes cuenta?</b></div>
+              <div class="ultRegis"><b>Registrarse</b></div>
               
             </form>
-            <a href="#" class="close" id="cross">X</a>
+           
           </div>
+
+          <div class="contX"> <a href="#" class="close" id="cross">X</a></div>
 
 <script src="./script.js"></script>
 

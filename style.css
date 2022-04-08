@@ -371,8 +371,11 @@ footer p{
     opacity: 0;
     pointer-events: none;
     
+    
 
 }
+
+
 
 
 .show{
@@ -385,9 +388,24 @@ form{
     background-color: #6f7c8b;
     max-width: 100%;
     text-align: center;
+    
 }
 
 .h1Form{
     text-align: center;
+    display: inline-block;
 }
 
+.close{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    
+
+    
+
+       
+    
+}

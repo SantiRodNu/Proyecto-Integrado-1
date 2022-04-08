@@ -578,11 +578,15 @@ form img{
     }
 
     header{
-        display: inline-block
+        display: inline-block;
+        padding: 0
+        ;
     }
 
     .buttonIngresar{
-        display: none;
+        margin-top: 4vh;
+        background-color: #2ad167;
+        
     }
     .buttonRegister{
         display: none;
@@ -605,4 +609,8 @@ form img{
         display: block;
         margin-top: 0.5vh;
     }
+}
+
+.h1Article{
+    font-size: 40px ;
 }

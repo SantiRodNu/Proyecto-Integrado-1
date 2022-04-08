@@ -299,6 +299,11 @@ section ul li{
     font-size: 14px;
 }
 
+section ul li::before{
+    content: '✓';
+    margin-right: 1vw;
+}
+
 .buttonPlans{
     border-style: none;
     background-color: #2ad167;
@@ -498,4 +503,82 @@ form img{
     font-size: 12px;
     margin-top: 1vh;
     
+}
+
+@media screen and (max-width:844px){
+    .fotoPrinc{
+        display: none;
+    }
+
+    .dots{
+        display: none;
+    }
+
+    .circle{
+        display: none;
+    }
+    .principal{
+        justify-content: center;
+        text-align: center;
+        margin-left: 4vw;
+    }
+    h1{
+        text-align: center;
+    }
+    
+    aside{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        
+        
+    }
+
+    aside div{
+        width: auto;
+        margin-right: 18vw;
+    }
+
+    article{
+        text-align: center;
+    }
+
+    .plans{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "basic"
+                            "mid"
+                            "full";
+        gap: 2vh;
+        
+    }
+
+    .basic{
+        grid-area: basic;
+        min-width: 76vw;
+        border-style:dashed;
+    }
+
+    .mid{
+        grid-area: mid;
+        min-width: 76vw;
+        border-style:dashed;
+    }
+
+    .full{
+        grid-area: full;
+        min-width: 76vw;
+        border-style:dashed;
+    }
+
+    .buttonPlans{
+        width: auto;
+    }
+
+    
+
+
+
 }

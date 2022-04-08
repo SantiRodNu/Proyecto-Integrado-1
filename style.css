@@ -577,8 +577,32 @@ form img{
         width: auto;
     }
 
-    
+    header{
+        display: inline-block
+    }
 
+    .buttonIngresar{
+        display: none;
+    }
+    .buttonRegister{
+        display: none;
+    }
+    .imagenLogo{
+        
+        display: block;
+        
+    }
 
+    nav{
+        margin: auto;
+    }
 
+    footer{
+        padding: 0;
+
+    }
+    footer ul{
+        display: block;
+        margin-top: 0.5vh;
+    }
 }
